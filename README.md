@@ -1,2 +1,14 @@
-# differentiation-for-s4tf
-A naming workaround for importing Differentiation in S4TF
+# Differentiation for S4TF
+
+The [Differentiation](https://github.com/philipturner/differentiation) package requires importing Differentiation like this:
+
+```swift
+import Differentiation
+```
+
+Swift for TensorFlow requires importing Differentiation like this:
+```swift
+import _Differentiation
+```
+
+This is an attempt to circumvent the naming issue.
