@@ -11,4 +11,4 @@ Swift for TensorFlow requires importing Differentiation like this:
 import _Differentiation
 ```
 
-This is an attempt to circumvent the naming issue.
+This is a (failed) attempt to circumvent the naming issue.
